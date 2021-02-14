@@ -1,13 +1,50 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body{
+  background-color: #e3efe8;
 
-*/
+     background: linear-gradient(180deg, rgba(255,32,153,1) 0%, rgba(254,183,49,1) 17%, rgba(252,245,77,1) 35%, rgba(115,254,112,1) 57%, rgba(114,207,255,1) 73%, rgba(232,116,255,1) 95%);
+    margin-left: 45%;
+    margin-top: 10%;
+    position: relative;
+
+
+}
+.audioPlayer{
+      left: 300px;
+
+}
+button{
+    background: fuchsia;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    
+}
+
+.kitty{
+    margin-right: 500px;
+    //display:flex;
+    position: absolute;
+    left: 45%;
+}
+
+.panda{
+    
+    margin-right: 500px;
+    //display:flex;
+    position: absolute;
+    right: 80%;
+}
+
+
+
+li{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
